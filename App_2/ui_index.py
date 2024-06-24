@@ -67,7 +67,7 @@ class Ui_MainWindow(object):
 
         self.layoutWidget3 = QWidget(self.icon_only_widget)
         self.layoutWidget3.setObjectName(u"layoutWidget3")
-        self.layoutWidget3.setGeometry(QRect(4, 60, 114, 381))
+        self.layoutWidget3.setGeometry(QRect(4, 60, 61, 381))
         self.verticalLayout_9 = QVBoxLayout(self.layoutWidget3)
         self.verticalLayout_9.setObjectName(u"verticalLayout_9")
         self.verticalLayout_9.setContentsMargins(0, 0, 0, 0)
@@ -106,7 +106,7 @@ class Ui_MainWindow(object):
 
         self.layoutWidget4 = QWidget(self.icon_only_widget)
         self.layoutWidget4.setObjectName(u"layoutWidget4")
-        self.layoutWidget4.setGeometry(QRect(0, 750, 114, 81))
+        self.layoutWidget4.setGeometry(QRect(0, 750, 71, 81))
         self.verticalLayout_10 = QVBoxLayout(self.layoutWidget4)
         self.verticalLayout_10.setObjectName(u"verticalLayout_10")
         self.verticalLayout_10.setContentsMargins(0, 0, 0, 0)
@@ -224,7 +224,7 @@ class Ui_MainWindow(object):
         self.voice.setFrameShadow(QFrame.Shadow.Raised)
         self.voice_2 = QPushButton(self.voice)
         self.voice_2.setObjectName(u"voice_2")
-        self.voice_2.setGeometry(QRect(0, 0, 204, 62))
+        self.voice_2.setGeometry(QRect(0, 0, 201, 61))
         self.voice_2.setStyleSheet(u"QPushButton { \n"
 "	padding-left:0px\n"
 "}\n"
@@ -407,6 +407,13 @@ class Ui_MainWindow(object):
         self.label_11.setGeometry(QRect(10, 0, 391, 61))
         self.label_11.setFont(font2)
         self.stackedWidget.addWidget(self.page_5)
+        self.page_6 = QWidget()
+        self.page_6.setObjectName(u"page_6")
+        self.label_12 = QLabel(self.page_6)
+        self.label_12.setObjectName(u"label_12")
+        self.label_12.setGeometry(QRect(20, 0, 391, 61))
+        self.label_12.setFont(font2)
+        self.stackedWidget.addWidget(self.page_6)
 
         self.verticalLayout_12.addWidget(self.main_screen_widget)
 
@@ -457,5 +464,6 @@ class Ui_MainWindow(object):
         self.label_9.setText(QCoreApplication.translate("MainWindow", u"Voice Dashboard", None))
         self.label_10.setText(QCoreApplication.translate("MainWindow", u"Voice Playground", None))
         self.label_11.setText(QCoreApplication.translate("MainWindow", u"Voice Settings", None))
+        self.label_12.setText(QCoreApplication.translate("MainWindow", u"Settings", None))
     # retranslateUi
 

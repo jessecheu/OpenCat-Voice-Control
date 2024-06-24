@@ -1,5 +1,7 @@
 <RCC>
   <qresource>
+    <file>Icons/dashboard1.png</file>
+    <file>Icons/dashboard2.png</file>
     <file>Icons/settingssmall1.png</file>
     <file>Icons/settings2.png</file>
     <file>Icons/settings1.png</file>
