@@ -1,0 +1,20 @@
+<RCC>
+  <qresource>
+    <file>Icons/settingssmall1.png</file>
+    <file>Icons/settings2.png</file>
+    <file>Icons/settings1.png</file>
+    <file>Icons/voice_icon.png</file>
+    <file>Icons/about_icon.png</file>
+    <file>Icons/petoi_icon.png</file>
+    <file>Icons/dashboardsmall1.png</file>
+    <file>Icons/dashboardsmall2.png</file>
+    <file>Icons/menu.png</file>
+    <file>Icons/search.png</file>
+    <file>Icons/settingssmall1.png</file>
+    <file>Icons/settingssmall2.png</file>
+    <file>Icons/signout1.png</file>
+    <file>Icons/signout2.png</file>
+    <file>Icons/signoutsmall1.png</file>
+    <file>Icons/signoutsmall2.png</file>
+  </qresource>
+</RCC>
