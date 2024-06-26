@@ -1,5 +1,3 @@
-# OpenCat-Voice-Control
-
 
 Using Python Virtual Environments: 
 

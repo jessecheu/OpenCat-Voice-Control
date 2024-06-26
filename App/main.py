@@ -1,11 +1,12 @@
+from PySide6.QtWidgets import QApplication
+from index_page import MySideBar
+
 import sys
 
-from PySide6 import QtWidgets
-from voice_widget import Widget
+app = QApplication(sys.argv)
 
-app = QtWidgets.QApplication(sys.argv)
+window = MySideBar()
 
-window = Widget()
 window.show()
 
 app.exec()
